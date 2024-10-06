@@ -1,0 +1,41 @@
+%YAML:1.0
+#Authors: Liu Zhongtian (midsky@zju.edu.cn); Chen Xuanlin (xuanlinchen@zju.edu.cn)
+#common parameters
+PLUGIN_LIBRARY: "trt_weights/libmyplugins.so"
+engine_file_path: "trt_weights/boatv5.engine"
+
+#camera calibration 
+model_type: PINHOLE
+camera_name: camera
+image_width: 640
+image_height: 480
+distortion_parameters:
+   k1: -2.917e-01
+   k2: 8.228e-02
+   p1: 5.333e-05
+   p2: -1.578e-04
+projection_parameters:
+   fx: 392.9
+   fy: 396.5
+   cx: 339.9
+   cy: 261.7
+
+
+#boat control paprameters
+connect: "/dev/ttyUSB0"            # 
+baud: 921600            #  
+K1: 0.05                #  
+K2: 0.6        # 
+K3: 0.1           # 
+P1: 0.16             # 
+P2: 0.016              # 
+omiga: 0.3
+yita: 4.0
+deta: 1.0
+
+#optimization parameters
+OME: 4.0  
+
+# log file path
+log_path: "assets/"
+
