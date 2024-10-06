@@ -1,0 +1,4 @@
+# ROS1 noetic
+# Jetpack 5.1.1
+# python==3.8
+# Jetson platform must meet the Jetpack&ROS1&python version requirements 
