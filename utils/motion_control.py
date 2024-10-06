@@ -5,7 +5,7 @@ from .tools import *
 import rospy
 
 class Boat_Motion_Control(Vehicle):
-    def __init__(self, connect_string, baud_rate, boatv5_wrapper, K1, K2, K3, P1, P2, omiga_d, yita_d, deta):
+    def __init__(self, boatv5_wrapper, params):
         # super().__init__()
         self.vehicle = connect(params['connect'], baud=params['baud'], wait_ready=True)
         self.boatv5_wrapper = boatv5_wrapper
