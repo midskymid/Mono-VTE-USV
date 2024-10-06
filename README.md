@@ -7,7 +7,7 @@ This repository implements the ROS1 version of controller, mainly including the 
 * **trt_weights**
 * **utils**
 
-![mh01](https://github.com/midskymid/Mono-VTE-USV/blob/master/assets/config/gif/vte_01.gif)
+![mh01](https://github.com/midskymid/Mono-VTE-USV/blob/master/assets/gif/vte_01.gif)
 # 2. Prerequisites
 * System  
   * Jetpack 5.1.1  
