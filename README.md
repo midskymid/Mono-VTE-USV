@@ -18,7 +18,9 @@ This repository implements the ROS1 version of controller, mainly including the 
   * ROS1 noetic
 * Libraries
   * OpenCV 4.5.4
-  * TensorRT 8.5.4
+  * TensorRT 8.5.2.2
+  * CUDA 11.4.315
+  * cuDNN 8.6.0.166
 # 3. Run Mono-VTE-USV
 Clone the repository and run:
 All configuration files are in the package, **_config_files_**.  

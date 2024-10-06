@@ -2,3 +2,8 @@
 # Jetpack 5.1.1
 # python==3.8
 # Jetson platform must meet the Jetpack&ROS1&python version requirements 
+python==3.8.10
+dronekit==2.9.2
+pycuda==2022.2.2
+numpy==1.22.0
+pymavlink==2.4.40
