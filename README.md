@@ -17,7 +17,7 @@ This repository implements the ROS1 version of controller, mainly including the 
   * TensorRT 8.5.4
 # 3. Run Mono-VTE-USV
 Clone the repository and run:
-All configuration files are in the package, **_config_pkg_**.  
+All configuration files are in the package, **_config_files_**.  
 Open four terminals, activate your virtual environment. Take an example  
 ```
 git clone https://github.com/midskymid/Mono-VTE-USV.git
